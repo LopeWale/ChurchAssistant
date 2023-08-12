@@ -40,3 +40,23 @@ Configuration Management Library: A library for handling configuration files (e.
 Testing Framework: A library for writing and running tests (e.g., pytest, unittest).
 ## 7. Utilities Module:
 General Utility Libraries: Any additional libraries needed for common utility functions.
+
+Summary of Previous Conversations:
+- Creating an application for the church's media team to display Bible verses.
+- Verses are displayed on a chosen monitor triggered by the preacher's speech.
+
+#### Task Breakdown:
+1. Implement Modules:
+   - Implement audio_interface.py
+   - Implement bible_api.py
+   - Implement citation_recognition.py
+   - Implement config.py
+   - Implement display.py
+   - Implement speech_recognition.py
+   - Implement utils.py
+2. Compile C++ Component (if used).
+3. Integrate Components.
+4. Testing: Write and run tests.
+5. Configuration and Environment Setup.
+6. Logging and Monitoring.
+7. Run and Evaluate the PoC.
