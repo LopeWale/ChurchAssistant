@@ -1,2 +1,3 @@
+Requests==2.31.0
 sounddevice==0.4.6
 win32gui==221.6
