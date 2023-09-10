@@ -354,6 +354,23 @@ CFFI = ">=1.0"
 numpy = ["NumPy"]
 
 [[package]]
+name = "speechrecognition"
+version = "3.10.0"
+description = "Library for performing speech recognition, with support for several engines and APIs, online and offline."
+optional = false
+python-versions = ">=3.8"
+files = [
+    {file = "SpeechRecognition-3.10.0-py2.py3-none-any.whl", hash = "sha256:7ae9966887d9909ce3e5a0c27ecc3eacfca16fd0c0829f77f552919418e86306"},
+    {file = "SpeechRecognition-3.10.0.tar.gz", hash = "sha256:14131155e8a8ba00ead1b7b9b1a2fa71c845e4db5f9a5f66a33a1bd6c55c6c35"},
+]
+
+[package.dependencies]
+requests = ">=2.26.0"
+
+[package.extras]
+whisper-api = ["openai"]
+
+[[package]]
 name = "urllib3"
 version = "2.0.4"
 description = "HTTP library with thread-safe connection pooling, file post, and more."
@@ -373,4 +390,4 @@ zstd = ["zstandard (>=0.18.0)"]
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.11"
-content-hash = "20553f5b94a43223eea2f6a6fc888bf51f5dc7f5c25c2c9829f562c133a59d3e"
+content-hash = "0289d58fcac6e5a37d3b1efb1689959453d943ea8cb3ef0ed7cb4a0c1cde95d2"

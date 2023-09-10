@@ -1,4 +1,5 @@
-import speech_recognition as sr
+import speech_recognition as sr  # from the library
+
 import ctypes  # For interfacing with performance_module.cpp
 
 class SpeechRecognition:
