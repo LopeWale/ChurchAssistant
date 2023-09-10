@@ -1,3 +1,5 @@
+pywin32==306
 Requests==2.31.0
+screeninfo==0.8.1
 sounddevice==0.4.6
-win32gui==221.5
+speechrecognition==3.10.0
