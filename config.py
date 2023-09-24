@@ -12,8 +12,10 @@ class Config:
             ctypes.windll.shell32.ShellExecuteW(None, "runas", sys.executable, " ".join(sys.argv), None, 1)
 
     def configure_irig_pre_hd(self):
+        # Set iRig Pre HD as the default input audio device using PowerShell
         self.run_powershell_command('Set-AudioDevice -Input "Microphone (iRig Pre HD)"')
         print("Windows sound settings configured for iRig Pre HD")
 
     def run_powershell_command(self, command):
+        # Run the given PowerShell command
         subprocess.run(['powershell', command])

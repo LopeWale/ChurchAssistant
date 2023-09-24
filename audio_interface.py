@@ -13,7 +13,8 @@ class AudioInterface:
         return next((device for device in devices if 'iRig Pre HD' in device['name']), None)
 
     def configure_windows_sound_settings(self):
-        self.config.configure_irig_pre_hd()  # Assuming you have this method in Config
+        # Assuming you have this method in Config to configure iRig Pre HD in Windows sound settings
+        self.config.configure_irig_pre_hd()
 
     def connect_to_audio_device(self):
         device = self.detect_audio_system()
@@ -32,3 +33,5 @@ class AudioInterface:
     def close_connection(self):
         sd.stop()
         print("Connection to iRig Pre HD closed")
+
+
